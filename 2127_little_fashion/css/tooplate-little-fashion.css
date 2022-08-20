@@ -36,7 +36,7 @@ https://www.tooplate.com/view/2127-little-fashion
 body,
 html {
   height: 100%;
-  background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=e8fb7560ed&attid=0.1&permmsgid=msg-f:1741701339749054721&th=182bc423fc907901&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9ZUF5LUgaTPbU2l3jFUCAfem06PBn_kOKYTgAdDktRC58At74aiAwsUrcNpdAa4s34hwQRIyn4A-CNzBnvgihbnI0mke8I0akN2ErowDUc5fg3lsvbVC98R3c&disp=emb&realattid=ii_l725xhli0");
+  background-image: url("https://i.pinimg.com/564x/10/25/ee/1025ee0370b619791d7fa6e9c6a802fb.jpg");
 }
 
 html {
@@ -50,8 +50,7 @@ html {
 }
 
 body {
-    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=e8fb7560ed&attid=0.1&permmsgid=msg-f:1741701339749054721&th=182bc423fc907901&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9ZUF5LUgaTPbU2l3jFUCAfem06PBn_kOKYTgAdDktRC58At74aiAwsUrcNpdAa4s34hwQRIyn4A-CNzBnvgihbnI0mke8I0akN2ErowDUc5fg3lsvbVC98R3c&disp=emb&realattid=ii_l725xhli0");
-    background: var(--white-color);
+    background-image: url("https://i.pinimg.com/564x/10/25/ee/1025ee0370b619791d7fa6e9c6a802fb.jpg");
     font-family: var(--body-font-family);    
     position: relative;
     color: white;
