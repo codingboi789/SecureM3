@@ -68,7 +68,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--dark-color);
+  color: var(--primary-color);
   line-height: inherit;
 }
 
@@ -112,7 +112,7 @@ h6 {
 }
 
 p {
-  color: var(--p-color);
+  color: var(--white-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
 }
@@ -124,7 +124,7 @@ button {
 }
 
 a {
-  color: var(--p-color);
+  color: var(--white-color);
   text-decoration: none;
 }
 
@@ -919,8 +919,15 @@ button:focus:not(:focus-visible) {
   background: var(--section-bg-color);
 }
 
+.section2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .product-thumb {
-  background: var(--white-color);
+  color: var(--white-color);
   position: relative;
   transition: all 0.5s ease-out;
 }
@@ -932,6 +939,7 @@ button:focus:not(:focus-visible) {
 .product-thumb:hover .product-image {
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
 }
+
 
 .product-top {
   position: absolute;
@@ -955,7 +963,18 @@ button:focus:not(:focus-visible) {
 }
 
 .product-title-link {
-  color: var(--dark-color);
+  color: var(--white-color);
+  align-items: center;
+}
+
+.product-title{
+  color: var(--white-color);
+  margin-left: 100px;
+  margin-top: -50px;
+}
+
+.intex{
+  margin-left: -10px;
 }
 
 .product-additional-link {
@@ -976,6 +995,8 @@ button:focus:not(:focus-visible) {
 
 .product-p {
   font-size: var(--product-link-font-size);
+  margin-left: 100px;
+  margin-top: -25px;
 }
 
 .view-all {
