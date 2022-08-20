@@ -37,7 +37,7 @@ body,
 html {
   height: 100%;
   background-image: url("https://i.pinimg.com/564x/10/25/ee/1025ee0370b619791d7fa6e9c6a802fb.jpg");
-  background-size: 150%;
+  background-size: 120%;
 }
 
 html {
@@ -52,7 +52,7 @@ html {
 
 body {
     background-image: url("https://i.pinimg.com/564x/10/25/ee/1025ee0370b619791d7fa6e9c6a802fb.jpg");
-    background-size: 150%;
+    background-size: 120%;
     background: var(--white-color);
     font-family: var(--body-font-family);    
     position: relative;
