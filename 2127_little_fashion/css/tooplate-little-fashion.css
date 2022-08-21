@@ -65,11 +65,14 @@ body {
 
 h2,
 h3,
-h4,
 h5,
 h6 {
   color: var(--primary-color);
   line-height: inherit;
+}
+
+h4{
+  color: white;
 }
 
 h1,
@@ -115,6 +118,17 @@ p {
   color: var(--white-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
+}
+
+li{
+  color: var(--white-color);
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-light);
+}
+
+li span {
+  position: relative;
+  
 }
 
 a, 
@@ -916,7 +930,7 @@ button:focus:not(:focus-visible) {
   PRODUCT               
 -----------------------------------------*/
 .front-product {
-  background: var(--section-bg-color);
+  background: #001233;
 }
 
 .section2{
@@ -934,6 +948,8 @@ button:focus:not(:focus-visible) {
 
 .product-image {
   transition: all 0.5s ease-out;
+  height: 400px;
+  width: 750px;
 }
 
 .product-thumb:hover .product-image {
@@ -969,8 +985,46 @@ button:focus:not(:focus-visible) {
 
 .product-title{
   color: var(--white-color);
-  margin-left: 100px;
-  margin-top: -50px;
+  margin-top: -40px;
+}
+
+.make{
+  margin-top: 135px;
+  margin-right: -200px;
+  margin-left: -150px;
+  transform: translate(-360px, 0px);
+}
+
+.sec1{
+  padding: 15px;
+  border: 10px solid #85A9EE;
+  border-radius: 4px;
+  background-color: #85A9EE;
+  margin: 20px;
+}
+
+.sec2{
+  padding: 15px;
+  border: 10px solid #1749A9;
+  border-radius: 4px;
+  background-color: #1749A9;
+  margin: 20px;
+}
+
+.sec3{
+  padding: 15px;
+  border: 10px solid #153572;
+  border-radius: 4px;
+  background-color: #153572;
+  margin: 20px;
+}
+
+.sec4{
+  padding: 15px;
+  border: 10px solid #0B1F46v;
+  border-radius: 4px;
+  background-color: #0B1F46;
+  margin: 20px;
 }
 
 .intex{
@@ -986,7 +1040,7 @@ button:focus:not(:focus-visible) {
 }
 
 .product-alert {
-  background: var(--white-color);
+  background: #001233;
   color: var(--p-color);
   font-size: var(--custom-link-font-size);
   font-weight: var(--font-weight-bold);
