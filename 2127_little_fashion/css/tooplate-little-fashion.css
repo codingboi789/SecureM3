@@ -147,7 +147,11 @@ a:hover {
 }
 
 .text-primary {
-  color: var(--white-color) !important;
+  color: #0466C8 !important;
+}
+
+.text-secondary{
+  color: #33415C;
 }
 
 ::selection {
@@ -528,10 +532,15 @@ strong {
   height: 500px;
 }
 
+.headertext{
+    margin-left: 310px;
+    margin-top: 150px;
+}
+
 .header-info {
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-left: 395px;
+    margin-left: 350px;
     margin-top: 150px;
   }
 
@@ -972,6 +981,7 @@ button:focus:not(:focus-visible) {
 .product-description,
 .product-cart-thumb {
   padding: 0 20px;
+  margin-top: 150px;
 }
 
 .product-icon {
@@ -1000,6 +1010,15 @@ button:focus:not(:focus-visible) {
   border: 10px solid #85A9EE;
   border-radius: 4px;
   background-color: #85A9EE;
+  margin: 20px;
+}
+
+button{
+  padding: 15px;
+  align-items: center;
+  border: 10px solid #1749A9;
+  border-radius: 4px;
+  background-color: #1749A9;
   margin: 20px;
 }
 
@@ -1053,6 +1072,17 @@ button:focus:not(:focus-visible) {
   margin-top: -25px;
 }
 
+.section1-0{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  border: 10px solid #85A9EE;
+  border-radius: 4px;
+  background-color: #85A9EE;
+  margin: 20px;
+}
+
 .view-all {
   text-transform: uppercase;
   color: var(--p-color);
@@ -1061,6 +1091,7 @@ button:focus:not(:focus-visible) {
   border-bottom: 2px solid var(--grey-color);
   padding-bottom: 6px;
 }
+
 
 /*---------------------------------------
   CONTACT              
@@ -1245,7 +1276,7 @@ button:focus:not(:focus-visible) {
   .header-info {
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-left: 3000px;
+    margin-right: 500px;
   }
 
   .header-image {
