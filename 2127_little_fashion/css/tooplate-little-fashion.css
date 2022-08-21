@@ -63,7 +63,6 @@ body {
   TYPOGRAPHY               
 -----------------------------------------*/
 
-h2,
 h3,
 h5,
 h6 {
@@ -71,6 +70,7 @@ h6 {
   line-height: inherit;
 }
 
+h2,
 h4{
   color: white;
 }
@@ -143,7 +143,7 @@ a {
 }
 
 a:hover {
-  color: var(--primary-color);
+  color: #226184;
 }
 
 .text-primary {
@@ -151,7 +151,7 @@ a:hover {
 }
 
 .text-secondary{
-  color: #33415C;
+  color: #ccdbfd !important;
 }
 
 ::selection {
@@ -362,7 +362,7 @@ strong {
 }
 
 .navbar span, h2 span, h4 span {
-	color: var(--primary-color);
+	color:  #005FCB;
 }
 
 .navbar.headroom--not-top {
@@ -425,12 +425,12 @@ strong {
 
 .navbar .nav-link.active,
 .navbar .nav-link:hover {
-  color: var(--primary-color);
+  color:  #226184;
 }
 
 .nav-link:focus, 
 .nav-link:hover {
-  color: var(--p-color);
+  color:  #BFE4F9;
 }
 
 .navbar-toggler {
@@ -846,6 +846,7 @@ button:focus:not(:focus-visible) {
 
 .tip{
   text-align: center;
+  color: white;
 }
 
 .team-thumb {
@@ -959,6 +960,11 @@ button:focus:not(:focus-visible) {
   transition: all 0.5s ease-out;
   height: 400px;
   width: 750px;
+}
+
+.app-image{
+  transition: all 0.5s ease-out;
+  margin-left: 300px;
 }
 
 .product-thumb:hover .product-image {
@@ -1142,6 +1148,15 @@ button{
   display: block;
   width: 50%;
 }
+
+.me-auto{
+  margin-left: 300px;
+}
+
+.mickey{
+  transform: translate(-100px, 0px);
+}
+
 
 .footer-menu-link {
   color: #6c757d;
