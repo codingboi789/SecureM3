@@ -1103,7 +1103,7 @@ button:focus:not(:focus-visible) {
 }
 
 .footer-menu {
-  margin: 0;
+  margin-top: 0;
   padding: 0;
 }
 
